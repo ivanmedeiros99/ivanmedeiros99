@@ -14,14 +14,11 @@ Deploy gratuito:
     3. Compartilhe o link com os acionistas
 """
 
-!pip install streamlit
-!pip install pandas
-!pip install plotly
-
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import requests
 from datetime import datetime, timedelta
 import json
 import math
