@@ -14,9 +14,9 @@ Deploy gratuito:
     3. Compartilhe o link com os acionistas
 """
 
-pip install streamlit
-pip install pandas
-pip install plotly
+!pip install streamlit
+!pip install pandas
+!pip install plotly
 
 import streamlit as st
 import pandas as pd
