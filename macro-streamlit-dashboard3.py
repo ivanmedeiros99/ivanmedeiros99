@@ -357,7 +357,7 @@ def make_bar_chart(labels, values, title, color, ref_line=None):
 
 def main():
     # Header
-    st.markdown("## Dellamed — Painel macroeconômico")
+    st.markdown("## Painel macroeconômico")
     st.caption("Série histórica mensal · mai/2025 – abr/2026 · Atualizado automaticamente via APIs do BCB")
 
     # Carregar dados
